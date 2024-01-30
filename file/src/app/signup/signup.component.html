@@ -1,0 +1,25 @@
+
+<div><form #data ='ngForm' (ngSubmit)="save(data)">
+    <label>Enter Name : </label>
+    <input type="text" name="name" ngModel><br><br>
+    <label for="">Enter address  : </label>
+    <input type="text" name="address" ngModel><br><br>
+    
+    <label for="">Enter Username : </label>
+    <input type="text" name="username" ngModel><br><br>
+    
+    <label for="">Enter Password : </label>
+    <input type="password" name="password" ngModel><br><br>
+    <input type="submit">
+    </form></div>
+    <!-- {{
+        data.value.name;
+        data.value.address;
+        data.value.username;
+        data.value.password
+     } } -->
+    {{newname}}
+    {{newaddress}}
+    {{newusername}}
+    {{newpassword}}
+   {{msg.message}} 

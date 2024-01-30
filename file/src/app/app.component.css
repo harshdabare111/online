@@ -1,0 +1,16 @@
+a{
+    font-size: 60px;
+
+    color: rgb(2, 2, 33);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 300px;
+    text-decoration: none;
+    
+}
+div{
+
+    background-color: violet;
+    
+}
